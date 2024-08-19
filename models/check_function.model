@@ -1,0 +1,3 @@
+pub fn {$NAME$}(ctx: &ProbeContext, pid: u32, count: u32) -> Result<bool,bool> {
+    {$CONDITION$}
+}

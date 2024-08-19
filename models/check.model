@@ -1,0 +1,8 @@
+pub fn check(id: usize, ctx: &ProbeContext, pid: u32, count: u32) -> bool {
+    let result = 
+    {$CONDITIONS$}
+    else {
+        Err(false)
+    };
+    result.unwrap()
+}
